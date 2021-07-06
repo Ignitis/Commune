@@ -1,0 +1,31 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 2em;
+  color: #353252;
+}
+
+.btn,
+.form-control {
+  font-family: "Nunito", sans-serif;
+}
+
+.bg-primary {
+  background-color: #372865 !important;
+}
+
+.btn-primary {
+  background-color: #372865;
+  border-color: #372865;
+}
+
+.companies-list .btn {
+  width: 50px;
+  aspect-ratio: 1/1;
+  opacity: 0.1;
+  transition: opacity 0.15s ease-in-out;
+}
+.companies-list .btn:is(:hover, :focus) {
+  opacity: 1;
+}
